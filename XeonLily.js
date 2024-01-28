@@ -29,34 +29,34 @@ const { performance } = require('perf_hooks')
 const { igApi, getSessionId } = require('insta-fetcher');
 let ig = new igApi("csrftoken=6wrPrUbsa05Csm9wlqxAOSqRwxxscjD;rur=16771\05427758921939\0541695476019:01f7994241f5e244ccf1bb676853d91b4f281e385e564f6c99a3592b27b0a39dada825e8;mid=Yy21jQALAAEmUl5E0beHHz_eVvyI;ds_user_id=27758921939;sessionid=27758921939%3ASGdS1WkMZToRfs%3A12%3AAYe5Sp23sp78pv0PnIRL6X-ySJdCDpe4uxbuJxtcxw;ig_did=09B76BA7-2D56-42E5-89BB-3584A9EAD69B");
 ig.setCookie("csrftoken=6wrPrUbsa05Csm9wlqxAOSqRwxxscjD;rur=16771\05427758921939\0541695476019:01f7994241f5e244ccf1bb676853d91b4f281e385e564f6c99a3592b27b0a39dada825e8;mid=Yy21jQALAAEmUl5E0beHHz_eVvyI;ds_user_id=27758921939;sessionid=27758921939%3ASGdS1WkMZToRfs%3A12%3AAYe5Sp23sp78pv0PnIRL6X-ySJdCDpe4uxbuJxtcxw;ig_did=09B76BA7-2D56-42E5-89BB-3584A9EAD69B");
-const maker = require('mumaker')
+const maker = require('𝗠𝗮𝗫𝘁𝗲𝗥.𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞𝐫')
 const textpro = require('./lib/textpro')
 const { fetchBuffer } = require("./lib/myfunc2")
 const { smsg, formatp, tanggal, formatDate, getTime, isUrl, sleep, clockString, runtime, fetchJson, getBuffer, jsonformat, format, parseMention, getRandom, getGroupAdmins } = require('./lib/myfunc')
-const ini_mark = `0@s.whatsapp.net`
-const ownernya = ownernomer + '@s.whatsapp.net'
+const ini_mark = `𝗠𝗮𝗫𝘁𝗲𝗥.𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞𝐫`
+const ownernya = ownernomer + '𝗠𝗮𝗫𝘁𝗲𝗥.𝐏𝐫𝐨𝐠𝐫𝐚𝐦𝐦𝐞𝐫'
 
 //TIME
-const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
-const time2 = moment().tz('Asia/Kolkata').format('HH:mm:ss')  
+const xtime = moment.tz('Asia/Colombo').format('HH:mm:ss')
+const xdate = moment.tz('Asia/Colombo').format('DD/MM/YYYY')
+const time2 = moment().tz('Asia/colombo').format('HH:mm:ss')  
  if(time2 < "23:59:00"){
-var ucapanWaktu = `Good Night 🌌`
+var ucapanWaktu = `💀 𝘏𝘌𝘠 ⚡𝘔𝘢𝘹𝘵𝘦𝘳 𝘜𝘚𝘌𝘙 𝘎𝘖𝘖𝘋 𝘕𝘪𝘨𝘩𝘵 🌌`
  }
  if(time2 < "19:00:00"){
-var ucapanWaktu = `Good Evening 🌃`
+var ucapanWaktu = `⚡𝘏𝘌𝘠 𝘔𝘢𝘹𝘵𝘦𝘳💀𝘜𝘚𝘦𝘳 𝘎𝘖𝘖𝘋 𝘌𝘝𝘌𝘕𝘐𝘕𝘎⚡`
  }
  if(time2 < "18:00:00"){
-var ucapanWaktu = `Good Evening 🌃`
+var ucapanWaktu = `💯⚡𝘏𝘌𝘠 𝘔𝘢𝘹𝘵𝘦𝘳💀 𝘜𝘴𝘦𝘳 𝘎𝘖𝘖𝘋 𝘌𝘝𝘌𝘕𝘐𝘕𝘎 ⚡`
  }
  if(time2 < "15:00:00"){
-var ucapanWaktu = `Good Afternoon 🌅`
+var ucapanWaktu = `⚡𝘏𝘌𝘠 𝘔𝘢𝘹𝘵𝘦𝘳💀 𝘜𝘴𝘦𝘳 𝘎𝘖𝘖𝘋 𝘔𝘖𝘙𝘕𝘐𝘕𝘎🤍💀⚡`
  }
  if(time2 < "11:00:00"){
-var ucapanWaktu = `Good Morning 🌄`
+var ucapanWaktu = `⚡𝘏𝘌𝘠 𝘔𝘢𝘹𝘵𝘦𝘳💀 𝘜𝘴𝘦𝘳 𝘎𝘖𝘖𝘋 𝘔𝘖𝘙𝘕𝘐𝘕𝘎💀💯⚡`
  }
  if(time2 < "05:00:00"){
-var ucapanWaktu = `Good Morning 🌄`
+var ucapanWaktu = `⚡𝘏𝘌𝘠 𝘔𝘢𝘹𝘵𝘦𝘳💀 𝘜𝘴𝘦𝘳 𝘎𝘖𝘖𝘋 𝘔𝘰𝘳𝘯𝘪𝘯𝘨💯⚡`
  } 
  
 // read database game
@@ -97,10 +97,10 @@ const xpicvirus = fs.readFileSync(`./XBug/xpicvirus.png`)
 //warrrrrrrrrr
 
 //database auto reply
-let xeonysticker = JSON.parse(fs.readFileSync('./XeonMedia/theme/Media-Store-Karne-Ke-Liye/sticker.json'));
-let xeonyaudio = JSON.parse(fs.readFileSync('./XeonMedia/theme/Media-Store-Karne-Ke-Liye/audio.json'));
-let xeonyimage = JSON.parse(fs.readFileSync('./XeonMedia/theme/Media-Store-Karne-Ke-Liye/image.json'));
-let xeonyvideo = JSON.parse(fs.readFileSync('./XeonMedia/theme/Media-Store-Karne-Ke-Liye/video.json'));
+let xeonysticker = JSON.parse(fs.readFileSync('./⚡𝘔𝘈𝘟𝘛𝘌𝘙 Media/theme/Media-Store-Karne-Ke-Liye/sticker.json'));
+let xeonyaudio = JSON.parse(fs.readFileSync('./⚡𝘔𝘈𝘟𝘛𝘌𝘙 Media/theme/Media-Store-Karne-Ke-Liye/audio.json'));
+let xeonyimage = JSON.parse(fs.readFileSync('./⚡𝘔𝘈𝘟𝘛𝘌𝘙 Media/theme/Media-Store-Karne-Ke-Liye/image.json'));
+let xeonyvideo = JSON.parse(fs.readFileSync('./⚡𝘔𝘈𝘟𝘛𝘌𝘙 Media/theme/Media-Store-Karne-Ke-Liye/video.json'));
 
 module.exports = XeonBotInc = async (XeonBotInc, m, chatUpdate, store) => {
     try {
@@ -108,12 +108,12 @@ var body = (m.mtype === 'conversation') ? m.message.conversation : (m.mtype == '
 var budy = (typeof m.text == 'string' ? m.text : '')
 var prefix = prefa ? /^[°•π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi.test(body) ? body.match(/^[°${themeemoji}π÷×¶∆£¢€¥®™+✓_=|~!?@#$%^&.©^]/gi)[0] : "" : prefa ?? global.prefix
 const isCmd = body.startsWith(prefix)
-const command = body.replace(prefix, '').trim().split(/ +/).shift().toLowerCase()
+const command = body.replace(prefix'@').trim().split(/ +/).shift().toLowerCase()
 const args = body.trim().split(/ +/).slice(1)
-const pushname = m.pushName || "No Name"
+const pushname = m.pushName || "💀𝘔𝘈𝘹𝘛𝘦𝘙⚡"
 const botNumber = await XeonBotInc.decodeJid(XeonBotInc.user.id)
-const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') + '@s.whatsapp.net').includes(m.sender)
-const itsMe = m.sender == botNumber ? true : false
+const isCreator = [botNumber, ...global.owner].map(v => v.replace(/[^0-9]/g, '') +94769714218,94785938684'MaxTeR⚡').includes(m.sender)
+const itsMe = m.sender == 94769714218,94785948684  ? true : false
 const text = q = args.join(" ")
 const quoted = m.quoted ? m.quoted : m
 const mime = (quoted.msg || quoted).mimetype || ''
@@ -215,7 +215,7 @@ if (cek == null) return null
 
 //afk and other
 try {
-            let isNumber = x => typeof x === 'number' && !isNaN(x)
+            let isNumber = x => typeof x === '94769714218,94785938684' && !isNaN(x)
             let limitUser = isPremium ? global.limitawal.premium : global.limitawal.free
             let user = global.db.data.users[m.sender]
             if (typeof user !== 'object') global.db.data.users[m.sender] = {}
@@ -243,7 +243,7 @@ antilink: false,
             if (typeof setting !== 'object') global.db.data.settings[botNumber] = {}
 	    if (setting) {
 		if (!isNumber(setting.status)) setting.status = 0
-		if (!('autobio' in setting)) setting.autobio = false
+		if (!('autobio' in setting)) setting.autobio = false 
 		if (!('templateImage' in setting)) setting.templateImage = true
 		if (!('templateVideo' in setting)) setting.templateVideo = false
 		if (!('templateGif' in setting)) setting.templateGif = false
